@@ -47,5 +47,14 @@ angular.module('starter.controllers', [])
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 })
 
+.controller('AboutCtrl', function($scope, $ionicPlatform, $cordovaAppVersion) {
+	// Función para mostrar la version de la app
+	$ionicPlatform.ready(function() {
+		$cordovaAppVersion.getAppVersion().then(function (version) {
+			$scope.appVersion = version;
+		});	
+	});
+})
+
 .controller('ChapterCtrl', function($scope, $stateParams) {
 });

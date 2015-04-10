@@ -1,14 +1,14 @@
 /* Empty. Add your own CSS if you like */
 
-.content {
-	float: left;
-	max-width: 480px
+.chapter {
+	margin-left: 10%;
 }
 
-.content img {
+.chapter h1 {
 	float: left;
-}
-
-.content h2 {
+	font-weight: lighter;
 	font-size: medium;
+	padding-right: 8px;
+	color: #bbb;
+	
 }
