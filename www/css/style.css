@@ -1,14 +1,49 @@
 /* Empty. Add your own CSS if you like */
 
-.chapter {
-	margin-left: 10%;
+.chapter h1 {
+	font-weight: bolder;
+	font-size: large;
+	color: #bbb;
+	background-color: rgba(0,0,0,0.7);
+	padding: 10px 10px 10px 30px;
+	margin: 10px 20px 20px 0px;
+	float: left;
 }
 
-.chapter h1 {
-	float: left;
-	font-weight: lighter;
-	font-size: medium;
-	padding-right: 8px;
+.chapter h2 {
+	font-size: large;
 	color: #bbb;
-	
+	background-color: rgba(0,0,0,0.7);
+	padding: 8px;
+}
+
+.header {
+	background-image: url("../img/chapter1/header.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 190px;
+	border-bottom:2px solid black;
+}
+
+.main {
+	padding-left: 15%;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+}
+
+.main p {
+	padding-right: 10px;
+}
+
+.my-box {
+	background-color: #f3f8b4;
+	padding: 10px;
+	margin-right: 10px;
+	border-radius: 8px;
+}
+
+.my-box li {
+	padding: 0px 0px 6px 0px;
+	font-size: small;
 }
