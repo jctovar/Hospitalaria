@@ -16,6 +16,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'ngCordova'])
     if (window.StatusBar) {
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
+      StatusBar.hide();
     }
   });
 })

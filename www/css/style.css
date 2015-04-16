@@ -3,8 +3,8 @@
 .chapter h1 {
 	font-weight: bolder;
 	font-size: large;
-	color: #bbb;
-	background-color: rgba(0,0,0,0.7);
+	color: #ccc;
+	background-color: rgba(0,0,0,0.6);
 	padding: 10px 10px 10px 30px;
 	margin: 10px 20px 20px 0px;
 	float: left;
@@ -12,9 +12,25 @@
 
 .chapter h2 {
 	font-size: large;
-	color: #bbb;
+	color: #ccc;
 	background-color: rgba(0,0,0,0.7);
 	padding: 8px;
+}
+
+.chapter h3 {
+	font-size: larger;
+	font-weight: bold;
+}
+
+.separator_top {
+	border-top:3px solid black;
+	height: 5px;
+	margin-top: 3px;
+}
+
+.separator_bottom {
+	border-bottom:3px solid black;
+	height: 5px;
 }
 
 .header {
@@ -22,7 +38,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 190px;
-	border-bottom:2px solid black;
+	
 }
 
 .main {
@@ -36,11 +52,28 @@
 	padding-right: 10px;
 }
 
+.note {
+	width: 45%;
+	font-weight: lighter;
+	font-style: italic;
+	float: right;
+	background-color: rgba(0,0,0,0.7);
+	color: white;
+	padding: 40px 10px 40px 20px;
+	font-size: medium;
+	margin: 4px 0px 4px 4px;
+}
+
 .my-box {
 	background-color: #f3f8b4;
-	padding: 10px;
+	padding: 20px;
 	margin-right: 10px;
 	border-radius: 8px;
+}
+
+.my-box ol {
+	list-style: decimal !important;
+	padding: 0px 0px 0px 12px;
 }
 
 .my-box li {
