@@ -76,7 +76,30 @@
 	padding: 0px 0px 0px 12px;
 }
 
+.my-box ul {
+	list-style: circle !important;
+	padding: 0px 0px 0px 12px;
+}
+
 .my-box li {
 	padding: 0px 0px 6px 0px;
 	font-size: small;
+}
+
+.cuadro {
+	margin: 0px 10px 0px 0px;
+	font-size: small;
+	background-color: #cfeffa;
+	border-radius: 8px;
+}
+
+.cuadro th {
+	font-weight: bold;
+	padding: 2px;
+	
+}
+
+.cuadro td {
+	padding: 2px;
+	border: 1px solid white;
 }
